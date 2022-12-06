@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A730DF96293F3A6300A58635 /* charizar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A730DF95293F3A6300A58635 /* charizar.usdz */; };
+		A75C1360293EFE7E00AFBFC9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C135F293EFE7E00AFBFC9 /* Model.swift */; };
+		A75C1362293F191F00AFBFC9 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C1361293F191F00AFBFC9 /* toy_biplane.usdz */; };
+		A75C1364293F19DB00AFBFC9 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C1363293F19DA00AFBFC9 /* cup_saucer_set.usdz */; };
+		A75C1366293F1A3000AFBFC9 /* chair_swan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C1365293F1A3000AFBFC9 /* chair_swan.usdz */; };
+		A75C1368293F1A6500AFBFC9 /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C1367293F1A6500AFBFC9 /* tv_retro.usdz */; };
+		A75C136A293F1AEA00AFBFC9 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C1369293F1AEA00AFBFC9 /* toy_car.usdz */; };
+		A75C136C293F1B1B00AFBFC9 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C136B293F1B1B00AFBFC9 /* fender_stratocaster.usdz */; };
+		A75C136F293F231F00AFBFC9 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = A75C136E293F231F00AFBFC9 /* FocusEntity */; };
 		A76DC8B8293DC9BF005B3DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8B7293DC9BF005B3DD1 /* AppDelegate.swift */; };
 		A76DC8BA293DC9BF005B3DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8B9293DC9BF005B3DD1 /* ContentView.swift */; };
-		A76DC8BC293DC9BF005B3DD1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8BB293DC9BF005B3DD1 /* Experience.rcproject */; };
 		A76DC8BE293DC9C1005B3DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76DC8BD293DC9C1005B3DD1 /* Assets.xcassets */; };
 		A76DC8C1293DC9C1005B3DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76DC8C0293DC9C1005B3DD1 /* Preview Assets.xcassets */; };
 		A76DC8CB293DC9C1005B3DD1 /* ARProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8CA293DC9C1005B3DD1 /* ARProjectTests.swift */; };
 		A76DC8D5293DC9C1005B3DD1 /* ARProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8D4293DC9C1005B3DD1 /* ARProjectUITests.swift */; };
 		A76DC8D7293DC9C1005B3DD1 /* ARProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8D6293DC9C1005B3DD1 /* ARProjectUITestsLaunchTests.swift */; };
+		A76DC8E3293DCA7B005B3DD1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8E5293DCA7B005B3DD1 /* Experience.rcproject */; };
+		A7AB0D65293E4C3700F0619B /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A7AB0D61293E4C3500F0619B /* toy_drummer.usdz */; };
+		A7AB0D68293E4C3700F0619B /* hab_en.reality in Resources */ = {isa = PBXBuildFile; fileRef = A7AB0D64293E4C3700F0619B /* hab_en.reality */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A730DF95293F3A6300A58635 /* charizar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = charizar.usdz; sourceTree = "<group>"; };
+		A75C135F293EFE7E00AFBFC9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A75C1361293F191F00AFBFC9 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
+		A75C1363293F19DA00AFBFC9 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
+		A75C1365293F1A3000AFBFC9 /* chair_swan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chair_swan.usdz; sourceTree = "<group>"; };
+		A75C1367293F1A6500AFBFC9 /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tv_retro.usdz; sourceTree = "<group>"; };
+		A75C1369293F1AEA00AFBFC9 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+		A75C136B293F1B1B00AFBFC9 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
 		A76DC8B4293DC9BF005B3DD1 /* ARProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76DC8B7293DC9BF005B3DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A76DC8B9293DC9BF005B3DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A76DC8BB293DC9BF005B3DD1 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		A76DC8BD293DC9C1005B3DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A76DC8C0293DC9C1005B3DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A76DC8C6293DC9C1005B3DD1 /* ARProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +64,9 @@
 		A76DC8D0293DC9C1005B3DD1 /* ARProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76DC8D4293DC9C1005B3DD1 /* ARProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARProjectUITests.swift; sourceTree = "<group>"; };
 		A76DC8D6293DC9C1005B3DD1 /* ARProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A76DC8E4293DCA7B005B3DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Base; path = Base.lproj/Experience.rcproject; sourceTree = "<group>"; };
+		A7AB0D61293E4C3500F0619B /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
+		A7AB0D64293E4C3700F0619B /* hab_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = hab_en.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75C136F293F231F00AFBFC9 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +120,9 @@
 			children = (
 				A76DC8B7293DC9BF005B3DD1 /* AppDelegate.swift */,
 				A76DC8B9293DC9BF005B3DD1 /* ContentView.swift */,
-				A76DC8BB293DC9BF005B3DD1 /* Experience.rcproject */,
+				A75C135F293EFE7E00AFBFC9 /* Model.swift */,
+				A7AB0D5E293E4BAF00F0619B /* Models */,
+				A76DC8E5293DCA7B005B3DD1 /* Experience.rcproject */,
 				A76DC8BD293DC9C1005B3DD1 /* Assets.xcassets */,
 				A76DC8BF293DC9C1005B3DD1 /* Preview Content */,
 			);
@@ -130,6 +154,22 @@
 			path = ARProjectUITests;
 			sourceTree = "<group>";
 		};
+		A7AB0D5E293E4BAF00F0619B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A730DF95293F3A6300A58635 /* charizar.usdz */,
+				A75C136B293F1B1B00AFBFC9 /* fender_stratocaster.usdz */,
+				A75C1369293F1AEA00AFBFC9 /* toy_car.usdz */,
+				A75C1367293F1A6500AFBFC9 /* tv_retro.usdz */,
+				A75C1365293F1A3000AFBFC9 /* chair_swan.usdz */,
+				A75C1363293F19DA00AFBFC9 /* cup_saucer_set.usdz */,
+				A75C1361293F191F00AFBFC9 /* toy_biplane.usdz */,
+				A7AB0D64293E4C3700F0619B /* hab_en.reality */,
+				A7AB0D61293E4C3500F0619B /* toy_drummer.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +186,9 @@
 			dependencies = (
 			);
 			name = ARProject;
+			packageProductDependencies = (
+				A75C136E293F231F00AFBFC9 /* FocusEntity */,
+			);
 			productName = ARProject;
 			productReference = A76DC8B4293DC9BF005B3DD1 /* ARProject.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +261,9 @@
 				Base,
 			);
 			mainGroup = A76DC8AB293DC9BF005B3DD1;
+			packageReferences = (
+				A75C136D293F231F00AFBFC9 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = A76DC8B5293DC9BF005B3DD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,8 +280,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75C136C293F1B1B00AFBFC9 /* fender_stratocaster.usdz in Resources */,
+				A75C1364293F19DB00AFBFC9 /* cup_saucer_set.usdz in Resources */,
+				A75C1362293F191F00AFBFC9 /* toy_biplane.usdz in Resources */,
+				A75C1368293F1A6500AFBFC9 /* tv_retro.usdz in Resources */,
+				A75C136A293F1AEA00AFBFC9 /* toy_car.usdz in Resources */,
+				A7AB0D68293E4C3700F0619B /* hab_en.reality in Resources */,
+				A730DF96293F3A6300A58635 /* charizar.usdz in Resources */,
 				A76DC8C1293DC9C1005B3DD1 /* Preview Assets.xcassets in Resources */,
 				A76DC8BE293DC9C1005B3DD1 /* Assets.xcassets in Resources */,
+				A75C1366293F1A3000AFBFC9 /* chair_swan.usdz in Resources */,
+				A7AB0D65293E4C3700F0619B /* toy_drummer.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +317,8 @@
 			files = (
 				A76DC8BA293DC9BF005B3DD1 /* ContentView.swift in Sources */,
 				A76DC8B8293DC9BF005B3DD1 /* AppDelegate.swift in Sources */,
-				A76DC8BC293DC9BF005B3DD1 /* Experience.rcproject in Sources */,
+				A76DC8E3293DCA7B005B3DD1 /* Experience.rcproject in Sources */,
+				A75C1360293EFE7E00AFBFC9 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +353,17 @@
 			targetProxy = A76DC8D1293DC9C1005B3DD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A76DC8E5293DCA7B005B3DD1 /* Experience.rcproject */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76DC8E4293DCA7B005B3DD1 /* Base */,
+			);
+			name = Experience.rcproject;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A76DC8D8293DC9C1005B3DD1 /* Debug */ = {
@@ -418,9 +485,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W6X9SKV4P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -448,9 +517,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ARProject/Preview Content\"";
+				DEVELOPMENT_TEAM = 8W6X9SKV4P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -585,6 +656,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A75C136D293F231F00AFBFC9 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A75C136E293F231F00AFBFC9 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A75C136D293F231F00AFBFC9 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A76DC8AC293DC9BF005B3DD1 /* Project object */;
 }
