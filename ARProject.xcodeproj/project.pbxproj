@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A730DF96293F3A6300A58635 /* charizar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A730DF95293F3A6300A58635 /* charizar.usdz */; };
 		A75C1360293EFE7E00AFBFC9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75C135F293EFE7E00AFBFC9 /* Model.swift */; };
 		A75C1362293F191F00AFBFC9 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C1361293F191F00AFBFC9 /* toy_biplane.usdz */; };
 		A75C1364293F19DB00AFBFC9 /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A75C1363293F19DA00AFBFC9 /* cup_saucer_set.usdz */; };
@@ -24,8 +23,8 @@
 		A76DC8D5293DC9C1005B3DD1 /* ARProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8D4293DC9C1005B3DD1 /* ARProjectUITests.swift */; };
 		A76DC8D7293DC9C1005B3DD1 /* ARProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8D6293DC9C1005B3DD1 /* ARProjectUITestsLaunchTests.swift */; };
 		A76DC8E3293DCA7B005B3DD1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A76DC8E5293DCA7B005B3DD1 /* Experience.rcproject */; };
+		A77481332941C6F500836E2D /* dragon_trans.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A77481322941C6F500836E2D /* dragon_trans.usdz */; };
 		A7AB0D65293E4C3700F0619B /* toy_drummer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A7AB0D61293E4C3500F0619B /* toy_drummer.usdz */; };
-		A7AB0D68293E4C3700F0619B /* hab_en.reality in Resources */ = {isa = PBXBuildFile; fileRef = A7AB0D64293E4C3700F0619B /* hab_en.reality */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A730DF95293F3A6300A58635 /* charizar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = charizar.usdz; sourceTree = "<group>"; };
 		A75C135F293EFE7E00AFBFC9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A75C1361293F191F00AFBFC9 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
 		A75C1363293F19DA00AFBFC9 /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cup_saucer_set.usdz; sourceTree = "<group>"; };
@@ -65,8 +63,8 @@
 		A76DC8D4293DC9C1005B3DD1 /* ARProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARProjectUITests.swift; sourceTree = "<group>"; };
 		A76DC8D6293DC9C1005B3DD1 /* ARProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A76DC8E4293DCA7B005B3DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Base; path = Base.lproj/Experience.rcproject; sourceTree = "<group>"; };
+		A77481322941C6F500836E2D /* dragon_trans.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = dragon_trans.usdz; path = ../../../../../Downloads/VR/blend/dragon_trans.usdz; sourceTree = "<group>"; };
 		A7AB0D61293E4C3500F0619B /* toy_drummer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer.usdz; sourceTree = "<group>"; };
-		A7AB0D64293E4C3700F0619B /* hab_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = hab_en.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,14 +155,13 @@
 		A7AB0D5E293E4BAF00F0619B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A730DF95293F3A6300A58635 /* charizar.usdz */,
+				A77481322941C6F500836E2D /* dragon_trans.usdz */,
 				A75C136B293F1B1B00AFBFC9 /* fender_stratocaster.usdz */,
 				A75C1369293F1AEA00AFBFC9 /* toy_car.usdz */,
 				A75C1367293F1A6500AFBFC9 /* tv_retro.usdz */,
 				A75C1365293F1A3000AFBFC9 /* chair_swan.usdz */,
 				A75C1363293F19DA00AFBFC9 /* cup_saucer_set.usdz */,
 				A75C1361293F191F00AFBFC9 /* toy_biplane.usdz */,
-				A7AB0D64293E4C3700F0619B /* hab_en.reality */,
 				A7AB0D61293E4C3500F0619B /* toy_drummer.usdz */,
 			);
 			path = Models;
@@ -283,10 +280,9 @@
 				A75C136C293F1B1B00AFBFC9 /* fender_stratocaster.usdz in Resources */,
 				A75C1364293F19DB00AFBFC9 /* cup_saucer_set.usdz in Resources */,
 				A75C1362293F191F00AFBFC9 /* toy_biplane.usdz in Resources */,
+				A77481332941C6F500836E2D /* dragon_trans.usdz in Resources */,
 				A75C1368293F1A6500AFBFC9 /* tv_retro.usdz in Resources */,
 				A75C136A293F1AEA00AFBFC9 /* toy_car.usdz in Resources */,
-				A7AB0D68293E4C3700F0619B /* hab_en.reality in Resources */,
-				A730DF96293F3A6300A58635 /* charizar.usdz in Resources */,
 				A76DC8C1293DC9C1005B3DD1 /* Preview Assets.xcassets in Resources */,
 				A76DC8BE293DC9C1005B3DD1 /* Assets.xcassets in Resources */,
 				A75C1366293F1A3000AFBFC9 /* chair_swan.usdz in Resources */,
